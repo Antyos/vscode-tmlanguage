@@ -151,7 +151,7 @@
       <key>sets</key>
       <dict>
         <key>begin</key>
-        <string>(\[)(\^)?([-\]])?</string>
+        <string>(\[)(\^)?</string>
         <key>beginCaptures</key>
         <dict>
           <key>1</key>
@@ -163,11 +163,6 @@
           <dict>
             <key>name</key>
             <string>keyword.other.set.operator.negate.escapedregexp</string>
-          </dict>
-          <key>3</key>
-          <dict>
-            <key>name</key>
-            <string>string.set.element.escapedregexp</string>
           </dict>
         </dict>
         <key>end</key>
