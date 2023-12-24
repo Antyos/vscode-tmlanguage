@@ -1,5 +1,5 @@
 // [PackageDev] target_format: plist
-{ 
+{
     "name": "Sublime Text Syntax Def (JSON)",
     "scopeName": "source.json-tmlanguage",
     "fileTypes": ["tmLanguage.json", "JSON-tmLanguage"],
@@ -18,7 +18,7 @@
 
   "repository": {
       "match": {
-        "begin": "\"(match|begin|end)\"\\s*?:\\s*(\")",
+        "begin": "\"(match|begin|end|while)\"\\s*:\\s*(\")",
         "end": "(\")",
         "name": "meta.definition.error.data.json-tmlanguage",
         "contentName": "string.regexp.singlequote.json-tmlanguage",
@@ -159,7 +159,7 @@
       },
 
       "captures": {
-        "begin": "\"((?:begin|end)?[cC]aptures)\"\\s*?:\\s*?\\{",
+        "begin": "\"(captures|(?:begin|end|while)Captures)\"\\s*:\\s*\\{",
         "beginCaptures": {
           "1": { "name": "keyword.other.control.json-tmlanguage" }
         },
