@@ -21,6 +21,7 @@
         "begin": "\"(match|begin|end)\"\\s*?:\\s*(\")",
         "end": "(\")",
         "name": "meta.definition.error.data.json-tmlanguage",
+        "contentName": "string.regexp.singlequote.json-tmlanguage",
         "patterns": [
             { "include": "source.escapedregexp" }
         ],
